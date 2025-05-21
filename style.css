@@ -1,0 +1,73 @@
+body {
+  font-size: 0.95rem;
+  font-family: "Nunito", "Open Sans", sans-serif;
+  background: #4d3f45;
+}
+
+h1, h2, h3, .navbar {
+  font-family: serif;
+}
+
+a {
+  color: #3e161e;
+}
+
+.wrapper {
+  background: #c8b8be;
+  width: 50rem;
+  margin: 0 auto;
+}
+
+header {
+  height: 15rem;
+  background: url("../jellyfishes-5584171_640.jpg") #224466;
+  display: block;
+  content: "";
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background: #9c8790;
+  padding: 0.25rem 0.5rem;
+}
+
+.navbar-title {
+  float: left;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+}
+
+nav ul, nav li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav a {
+  margin: 0 0 0 0.5rem;
+}
+
+.section {
+  padding: 0.75rem 1.25rem;
+}
+
+.inset {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  background: #9c8790;
+}
+
+clearfix {
+  float: none;
+  clear: both;
+  content: "";
+  height: 0;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
