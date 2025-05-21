@@ -1,11 +1,22 @@
+@font-face {
+ font-family: "Nunito";
+ src: url('./assets/fonts/Nunito-VariableFont_wght.ttf');
+}
+
+@font-face {
+ font-family: "Roboto Slab";
+ src: url('./assets/fonts/RobotoSlab-VariableFont_wght.ttf');
+}
+
 body {
-  font-size: 0.95rem;
-  font-family: "Nunito", "Open Sans", sans-serif;
+  font-size: 0.925rem;
+  color: #110010;
+  font-family: "Nunito", Verdana, sans-serif;
   background: #4d3f45;
 }
 
 h1, h2, h3, .navbar {
-  font-family: serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 a {
@@ -16,18 +27,21 @@ a {
   background: #c8b8be;
   width: 50rem;
   margin: 0 auto;
+  border-radius: 0.2rem;
 }
 
 header {
   height: 15rem;
-  background: url("../jellyfishes-5584171_640.jpg") #224466;
+  background: url("assets/imgs/jellyfishes-5584171_640.jpg") #224466;
   display: block;
   content: "";
   padding: 0;
   margin: 0;
+  border-bottom: 1px solid;  
+  border-radius: 0.2rem 0.2rem 0 0;
 }
 
-.navbar {
+.navbar, footer {
   background: #9c8790;
   padding: 0.25rem 0.5rem;
 }
@@ -53,11 +67,12 @@ nav a {
 }
 
 .section {
-  padding: 0.75rem 1.25rem;
+  padding: 0.25rem 1.25rem 1.25rem 1.25rem;
+  border-top: 1px solid;
 }
 
 .inset {
-  padding: 0.5rem;
+  padding: 1px 0.75rem;
   border-radius: 0.2rem;
   background: #9c8790;
 }
@@ -70,4 +85,10 @@ clearfix {
   padding: 0;
   margin: 0;
   display: block;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  border-radius: 0 0 0.2rem 0.2rem;
 }
