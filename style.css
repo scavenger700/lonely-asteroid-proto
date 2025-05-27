@@ -30,6 +30,10 @@ a {
   color: #6ee0f7;
 }
 
+center {
+    text-align: center;
+}
+
 .wrapper {
   background: rgba(23, 27, 35, 0.7); /*2b2f37*/
   width: 90%;
@@ -59,10 +63,6 @@ header {
   padding: 0.25rem 0.5rem;
   border-top: 1px solid;
   line-height: 150%;
-}
-
-footer {
-  border-bottom: 1px solid; /*prev 66c3eb*/
 }
 
 .navbar-title {
