@@ -130,6 +130,14 @@ footer {
   font-size: 0.85rem;
 }
 
+year, year:after {
+  display: inline;
+}
+
+year:after { /* for convenience */
+  content: "2025";
+}
+
 
 @media(max-width: 40rem) {
   .wrapper {
